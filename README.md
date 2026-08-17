@@ -4,29 +4,37 @@ A curated collection of paintings by ei9h7 and collaborators, organized by indiv
 
 ## 📋 Individual Paintings
 
-| # | Title | Artist(s) | View |
-|---|-------|-----------|------|
-| 1 | AG (untitled) | ei9h7 | [View](https://github.com/ei9h7/paintings/commit/2710ac37131f210880932d7f796e51b3ca5f1875) |
-| 2 | Lichen | ei9h7 | [View](https://github.com/ei9h7/paintings/commit/2f409edbfe91ed05db7f37c883a964cee6f65273) |
-| 3 | Painting Water | HM & ei9h7 | [View](https://github.com/ei9h7/paintings/commit/6bc319a02cd3a7b025ead1bd6dee30db013449b6) |
-| 4 | Reach | HM & ei9h7 | [View](https://github.com/ei9h7/paintings/commit/742f884e33a43b63c2386335b678f3e282602470) |
-| 5 | Blotted | HM | [View](https://github.com/ei9h7/paintings/commit/bd2d45d68687eb2790c0fb49bd9ca33ef460f77f) |
-| 6 | The Head | ei9h7 | [View](https://github.com/ei9h7/paintings/commit/a10634c206b222e5803199c7019925cf0901f7c7) |
-| 7 | Unfinished Arguments | ei9h7 | [View](https://github.com/ei9h7/paintings/commit/d609d599c7d8f461ca5e7d42269de9020543a397) |
-| 8 | Together | HM | [View](https://github.com/ei9h7/paintings/commit/4f51b3c76e2800c2f53a77043e1fc05f0a3767dd) |
-| 9 | Trapped | ei9h7 | [View](https://github.com/ei9h7/paintings/commit/36abdf931545f18731c43e8dd4918319a6cd6160) |
+| # | Thumbnail | Title | Artist(s) | View |
+|---|-----------|-------|-----------|------|
+| 1 | ![AG](https://raw.githubusercontent.com/ei9h7/paintings/main/IMG_6731.jpeg) | [AG (untitled)](docs/paintings/ag-untitled.md) | ei9h7 | [Commit](https://github.com/ei9h7/paintings/commit/2710ac37131f210880932d7f796e51b3ca5f1875) |
+| 2 | ![Lichen](https://raw.githubusercontent.com/ei9h7/paintings/main/IMG_6754.jpeg) | [Lichen](docs/paintings/lichen.md) | ei9h7 | [Commit](https://github.com/ei9h7/paintings/commit/2f409edbfe91ed05db7f37c883a964cee6f65273) |
+| 3 | ![Painting Water](https://raw.githubusercontent.com/ei9h7/paintings/main/IMG_6710.jpeg) | [Painting Water](docs/paintings/painting-water.md) | HM & ei9h7 | [Commit](https://github.com/ei9h7/paintings/commit/6bc319a02cd3a7b025ead1bd6dee30db013449b6) |
+| 4 | ![Reach](https://raw.githubusercontent.com/ei9h7/paintings/main/IMG_6575.jpeg) | [Reach](docs/paintings/reach.md) | HM & ei9h7 | [Commit](https://github.com/ei9h7/paintings/commit/742f884e33a43b63c2386335b678f3e282602470) |
+| 5 | ![Blotted](https://raw.githubusercontent.com/ei9h7/paintings/main/IMG_6600.jpeg) | [Blotted](docs/paintings/blotted.md) | HM | [Commit](https://github.com/ei9h7/paintings/commit/bd2d45d68687eb2790c0fb49bd9ca33ef460f77f) |
+| 6 | ![The Head](https://raw.githubusercontent.com/ei9h7/paintings/main/IMG_6323.jpeg) | [The Head](docs/paintings/the-head.md) | ei9h7 | [Commit](https://github.com/ei9h7/paintings/commit/a10634c206b222e5803199c7019925cf0901f7c7) |
+| 7 | ![Unfinished Arguments](https://raw.githubusercontent.com/ei9h7/paintings/main/IMG_4895.jpeg) | [Unfinished Arguments](docs/paintings/unfinished-arguments.md) | ei9h7 | [Commit](https://github.com/ei9h7/paintings/commit/d609d599c7d8f461ca5e7d42269de9020543a397) |
+| 8 | ![Together](https://raw.githubusercontent.com/ei9h7/paintings/main/image.jpg) | [Together](docs/paintings/together.md) | HM | [Commit](https://github.com/ei9h7/paintings/commit/4f51b3c76e2800c2f53a77043e1fc05f0a3767dd) |
+| 9 | ![Trapped](https://raw.githubusercontent.com/ei9h7/paintings/main/IMG_6766.jpeg) | [Trapped](docs/paintings/trapped.md) | ei9h7 | [Commit](https://github.com/ei9h7/paintings/commit/36abdf931545f18731c43e8dd4918319a6cd6160) |
 
 ## 🖼️ Collections & Compilations
 
-### Assorted Marbles
+### [Assorted Marbles](docs/paintings/collections.md#assorted-marbles)
 A collection of multiple marbling pieces consolidated together.  
-**Artist:** ei9h7  
+![Assorted Marbles Thumbnail](https://raw.githubusercontent.com/ei9h7/paintings/main/IMG_6656.jpeg)  
+**Artist:** HM & ei9h7  
 [View Collection](https://github.com/ei9h7/paintings/commit/85d955a273a7a30e77f574dc00ad5140e2c9fd71)
 
-### Pairings
+### [Pairings](docs/paintings/collections.md#pairings)
 Paintings displayed and arranged together, showing works in conversation with each other.  
+![Pairings Thumbnail](https://raw.githubusercontent.com/ei9h7/paintings/main/IMG_6717.jpeg)  
 **Artist:** ei9h7  
 [View Display](https://github.com/ei9h7/paintings/commit/e8f93caeb7cca1b2c731cddf8c8ab3b34d8b2a6c)
+
+## 📚 Documentation & Analysis
+
+- **[Analysis Overview](docs/analysis-overview.md)** - Thematic and artistic analysis of the full collection
+- **[Individual Painting Analyses](docs/paintings/)** - Deep dives into each work
+- **[Collections Analysis](docs/paintings/collections.md)** - Exploration of Assorted Marbles and Pairings
 
 ## 📊 Collection Overview
 
@@ -39,19 +47,20 @@ Paintings displayed and arranged together, showing works in conversation with ea
 ## 👥 Artists
 
 ### ei9h7
-Primary artist in this collection with solo and collaborative pieces exploring various themes and styles.
+Primary artist in this collection with solo and collaborative pieces exploring various themes and styles. Works span from representational portraiture to abstract experimentation with process-driven techniques.
 
 ### HM
-Collaborator on multiple pieces, contributing to both individual and joint works.
+Collaborator on multiple pieces, contributing to both individual and joint works. Brings complementary artistic approaches to collaborative exploration.
 
 ---
 
 ## 💡 How to Browse
 
-1. **Individual Paintings** - Click "View" to see each unique piece
-2. **Collections** - Browse curated groupings and compilations of works
-3. **Each commit contains photos** - Multiple angles, details, and documentation of each work
-4. Browse chronologically from newest to oldest
+1. **Individual Paintings** - Click any title to read detailed analysis
+2. **View Images** - Hover over thumbnails to see full-size images
+3. **Visit Commits** - Click "Commit" links to see all documentation photos of each work
+4. **Collections** - Browse curated groupings and compilations
+5. **[Analysis Overview](docs/analysis-overview.md)** - Start here for thematic context
 
 ---
 

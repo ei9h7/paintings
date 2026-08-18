@@ -4,7 +4,7 @@ title: Gallery
 ---
 <div class="hero">
   <h1>Paintings</h1>
-  <p>A curated collection of paintings by ei9h7 and collaborators, spanning solo works, collaborations, and compilations.</p>
+  <p>A curated collection of paintings by ei9h7 and Henry, spanning solo works, collaborations, and compilations.</p>
 </div>
 
 <h2 class="section-title">Individual Paintings</h2>

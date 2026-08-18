@@ -1,4 +1,9 @@
-# Together
+---
+layout: painting
+title: Together
+image: image.jpg
+artist: HM
+---
 
 ## Overview
 [NEEDS ARTIST INPUT: Context, medium, why this work is in your collection]

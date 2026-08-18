@@ -1,4 +1,9 @@
-# Painting Water
+---
+layout: painting
+title: Painting Water
+image: IMG_6710.jpeg
+artist: HM & ei9h7
+---
 
 ## Overview
 [NEEDS ARTIST INPUT: Collaboration process, concept, individual contributions]

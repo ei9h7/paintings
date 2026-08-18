@@ -1,4 +1,7 @@
-# 🎨 Collection Analysis Overview
+---
+layout: page
+title: Collection Analysis Overview
+---
 
 This document provides a comprehensive analysis of the paintings collection, exploring themes, techniques, artistic development, and collaborative processes.
 
@@ -100,8 +103,8 @@ The collection traces movement from:
 
 For detailed analysis of specific works, see:
 
-- **[Individual Painting Analyses](./paintings/)** - Deep dive into each of the 9 paintings
-- **[Collections Analysis](./paintings/collections.md)** - Exploration of Assorted Marbles and Pairings
+- **[Individual Painting Analyses]({{ "/" | relative_url }})** - Deep dive into each of the 9 paintings
+- **[Collections Analysis]({{ "/paintings/collections.html" | relative_url }})** - Exploration of Assorted Marbles and Pairings
 
 ---
 

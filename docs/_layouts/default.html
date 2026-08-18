@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Gallery</a>
+      <a href="{{ '/analysis-overview.html' | relative_url }}">Analysis</a>
+      <a href="https://github.com/ei9h7/paintings">GitHub</a>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <p>{{ site.title }} &middot; <a href="https://github.com/ei9h7/paintings">ei9h7/paintings</a></p>
+  </footer>
+</body>
+</html>

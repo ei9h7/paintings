@@ -1,4 +1,9 @@
-# Blotted
+---
+layout: painting
+title: Blotted
+image: IMG_6600.jpeg
+artist: HM
+---
 
 ## Overview
 An experimental work combining destructive and constructive processes. Chalk is physically destroyed by hammer, then rubbed into vinyl sheet. The resulting base is then enhanced with airbrush crayon, washable marker, and tempera finger painting. The work emerges from process rather than predetermined concept—titled retrospectively because of its visual character. Created by HM.

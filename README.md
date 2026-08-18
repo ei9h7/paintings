@@ -2,7 +2,7 @@
 
 **🖼️ [Browse the gallery site](https://ei9h7.github.io/paintings/)** — a browsable version of this collection, no repo-digging required.
 
-A curated collection of paintings by ei9h7 and collaborators, organized by individual works and collections.
+A curated collection of paintings by ei9h7 and Henry, organized by individual works and collections.
 
 ## 📋 Individual Paintings
 

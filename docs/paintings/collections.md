@@ -1,10 +1,15 @@
-# Collections & Compilations
+---
+layout: page
+title: Collections & Compilations
+---
 
 This document covers works that are collections of multiple pieces consolidated into single documentation points rather than individual paintings.
 
 ---
 
 ## Assorted Marbles
+
+![Assorted Marbles]({{ "/assets/images/IMG_6656.jpeg" | relative_url }})
 
 ### Overview
 [NEEDS ARTIST INPUT: Marbling technique explanation, artistic intent, relationship to ei9h7's practice]
@@ -66,6 +71,8 @@ This document covers works that are collections of multiple pieces consolidated 
 ---
 
 ## Pairings
+
+![Pairings]({{ "/assets/images/IMG_6717.jpeg" | relative_url }})
 
 ### Overview
 [NEEDS ARTIST INPUT: What is the concept of "pairings"? How were paintings selected and displayed together?]

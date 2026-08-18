@@ -1,4 +1,9 @@
-# Trapped
+---
+layout: painting
+title: Trapped
+image: IMG_6766.jpeg
+artist: ei9h7
+---
 
 ## Overview
 A digitally-processed photograph exploring themes of constraint, confinement, and the tension between life and death. The work documents thousands of flies caught in a Venus flytrap at extreme magnification, then inverted chromatically and tonally to create a visually disorienting experience. By pushing the photograph into abstraction through digital reversal, the work transforms a literal biological scene into something conceptually ambiguous and unsettling.

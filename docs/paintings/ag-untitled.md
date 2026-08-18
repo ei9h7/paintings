@@ -1,4 +1,9 @@
-# AG (untitled)
+---
+layout: painting
+title: AG (untitled)
+image: IMG_6731.jpeg
+artist: ei9h7
+---
 
 ## Overview
 A portrait of AG, an individual who chooses to remain unidentified beyond their initials. This work explores figuration through unconventional materials and surfaces, challenging traditional portraiture approaches.

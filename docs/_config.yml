@@ -1,0 +1,9 @@
+title: Paintings
+description: A curated collection of paintings by ei9h7 and collaborators.
+baseurl: "/paintings"
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins: []
+exclude:
+  - README.md

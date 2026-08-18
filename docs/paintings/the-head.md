@@ -1,4 +1,9 @@
-# The Head
+---
+layout: painting
+title: The Head
+image: IMG_6323.jpeg
+artist: ei9h7
+---
 
 ## Overview
 [NEEDS ARTIST INPUT: Concept, medium, artistic intent]

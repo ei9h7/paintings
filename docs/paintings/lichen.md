@@ -1,4 +1,9 @@
-# Lichen
+---
+layout: painting
+title: Lichen
+image: IMG_6754.jpeg
+artist: ei9h7
+---
 
 ## Overview
 An exploration of organic texture and form created through layered processes on black felt. The work features a recurring humanoid character that emerges organically throughout ei9h7's body of work—possibly a subconscious visual motif. The title references the appearance of lichen (the symbiotic organism), capturing a feeling rather than literal representation.

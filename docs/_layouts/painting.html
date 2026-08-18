@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="painting">
+  <a class="back-link" href="{{ '/' | relative_url }}">&larr; Back to gallery</a>
+  <h1>{{ page.title }}</h1>
+  {% if page.artist %}<p class="artist-byline">By {{ page.artist }}</p>{% endif %}
+  {% if page.image %}
+  <img class="hero-image" src="{{ '/assets/images/' | append: page.image | relative_url }}" alt="{{ page.title }}">
+  {% endif %}
+  <div class="painting-body">
+    {{ content }}
+  </div>
+</article>

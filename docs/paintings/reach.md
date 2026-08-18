@@ -1,4 +1,9 @@
-# Reach
+---
+layout: painting
+title: Reach
+image: IMG_6575.jpeg
+artist: HM & ei9h7
+---
 
 ## Overview
 [NEEDS ARTIST INPUT: Concept, collaboration process, artistic intent]

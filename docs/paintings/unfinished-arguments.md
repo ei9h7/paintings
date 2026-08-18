@@ -1,4 +1,9 @@
-# Unfinished Arguments
+---
+layout: painting
+title: Unfinished Arguments
+image: IMG_4895.jpeg
+artist: ei9h7
+---
 
 ## Overview
 [NEEDS ARTIST INPUT: What arguments? Concept and artistic intent]

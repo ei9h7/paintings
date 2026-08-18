@@ -1,7 +1,7 @@
 ---
 layout: painting
 title: Blotted
-image: IMG_6600.jpeg
+image: IMG_6600.jpg
 artist: HM
 ---
 

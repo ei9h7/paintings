@@ -11,7 +11,7 @@ title: Gallery
 <div class="gallery-grid">
   {% for p in site.data.paintings %}
   <a class="gallery-card" href="{{ p.page | relative_url }}">
-    <img src="{{ '/assets/images/' | append: p.image | relative_url }}" alt="{{ p.title }}" loading="lazy">
+    <img src="{{ '/assets/thumbs/' | append: p.image | relative_url }}" alt="{{ p.title }}" loading="lazy">
     <div class="gallery-card-body">
       <div class="gallery-card-title">{{ p.title }}</div>
       <div class="gallery-card-artist">{{ p.artist }}</div>
@@ -24,7 +24,7 @@ title: Gallery
 <div class="gallery-grid">
   {% for c in site.data.collections %}
   <a class="gallery-card" href="{{ c.page | relative_url }}">
-    <img src="{{ '/assets/images/' | append: c.image | relative_url }}" alt="{{ c.title }}" loading="lazy">
+    <img src="{{ '/assets/thumbs/' | append: c.image | relative_url }}" alt="{{ c.title }}" loading="lazy">
     <div class="gallery-card-body">
       <div class="gallery-card-title">{{ c.title }}</div>
       <div class="gallery-card-artist">{{ c.artist }}</div>

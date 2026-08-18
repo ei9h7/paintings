@@ -1,7 +1,7 @@
 ---
 layout: painting
 title: Unfinished Arguments
-image: IMG_4895.jpeg
+image: IMG_4895.jpg
 artist: ei9h7
 ---
 
@@ -75,6 +75,6 @@ The title "Unfinished Arguments" operates on multiple interpretive levels:
 
 **Artist:** ei9h7  
 **Viewed in Commit:** [d609d59](https://github.com/ei9h7/paintings/commit/d609d599c7d8f461ca5e7d42269de9020543a397)  
-**Thumbnail:** IMG_4895.jpeg
+**Thumbnail:** IMG_4895.jpg
 
 **Last Updated:** August 16, 2026

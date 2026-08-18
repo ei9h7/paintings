@@ -2,7 +2,22 @@
   image: IMG_6656.jpg
   page: paintings/collections.html#assorted-marbles
   artist: HM & ei9h7
+  images:
+    - IMG_6656.jpg
+    - IMG_6624.jpg
+    - IMG_6625.jpg
+    - IMG_6631.jpg
+    - IMG_6634.jpg
+    - IMG_6652.jpg
+    - IMG_6657.jpg
+    - IMG_6664.jpg
+    - IMG_6687.jpg
 - title: Pairings
   image: IMG_6717.jpg
   page: paintings/collections.html#pairings
   artist: ei9h7
+  images:
+    - IMG_6717.jpg
+    - IMG_6583.jpg
+    - IMG_6587.jpg
+    - IMG_6670.jpg

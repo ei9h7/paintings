@@ -1,0 +1,78 @@
+name: Add painting from issue photos
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  process:
+    if: contains(github.event.issue.labels.*.name, 'add-photos')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pillow pyyaml requests
+
+      - name: Save issue body
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: printf '%s\n' "$ISSUE_BODY" > /tmp/issue_body.md
+
+      - name: Process photos
+        id: process
+        env:
+          # A repo secret ATTACHMENTS_TOKEN (a PAT with repo access) is used if set,
+          # since private-repo issue attachments sometimes aren't fetchable with the
+          # default Actions token. Falls back to GITHUB_TOKEN otherwise.
+          GITHUB_TOKEN: ${{ secrets.ATTACHMENTS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 scripts/process_issue.py /tmp/issue_body.md
+
+      - name: Create pull request
+        if: success()
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Add photos: ${{ steps.process.outputs.title }} (#${{ github.event.issue.number }})"
+          branch: add-photos-issue-${{ github.event.issue.number }}
+          title: "Add photos: ${{ steps.process.outputs.title }}"
+          body: |
+            Photos uploaded via #${{ github.event.issue.number }}.
+
+            ${{ steps.process.outputs.is_new == 'true' && 'This creates a new painting page with a stub -- fill in the `[NEEDS ARTIST INPUT]` sections before merging.' || 'This adds photos to an existing painting/collection.' }}
+
+            Closes #${{ github.event.issue.number }}
+          labels: add-photos
+
+      - name: Comment on issue (success)
+        if: success() && steps.cpr.outputs.pull-request-url
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `Photos processed — review and merge: ${{ steps.cpr.outputs.pull-request-url }}`
+            });
+
+      - name: Comment on issue (failure)
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `Something went wrong processing this — check the [workflow run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}) for details.`
+            });

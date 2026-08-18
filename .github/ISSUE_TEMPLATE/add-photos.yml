@@ -1,0 +1,69 @@
+name: Add painting photos
+description: Upload photos from your phone to add to the gallery — new painting or more photos of an existing one.
+title: "[Add photos] "
+labels: ["add-photos"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Attach your photos below (on mobile: tap the text box, then use the image/camera icon, or paste from your photo library).
+        A bot will resize them, build the gallery entry, and open a pull request for review — nothing goes live until you merge it.
+  - type: dropdown
+    id: painting
+    attributes:
+      label: Which painting is this?
+      description: Pick an existing painting/collection to add more photos to it, or choose "New painting" and give it a title below.
+      options:
+        - "🆕 New painting"
+        - "AG (untitled)"
+        - "Lichen"
+        - "Painting Water"
+        - "Reach"
+        - "Blotted"
+        - "The Head"
+        - "Unfinished Arguments"
+        - "Together"
+        - "Trapped"
+        - "Assorted Marbles (collection)"
+        - "Pairings (collection)"
+    validations:
+      required: true
+  - type: input
+    id: new_title
+    attributes:
+      label: New painting title
+      description: Only fill this in if you picked "🆕 New painting" above.
+      placeholder: e.g. Storm Study
+    validations:
+      required: false
+  - type: dropdown
+    id: kind
+    attributes:
+      label: If new — is this a collection?
+      description: A collection groups several separate small pieces shown together (like Assorted Marbles). Most uploads are a single painting — leave this as "Single painting".
+      options:
+        - "Single painting"
+        - "Collection (multiple separate pieces)"
+    validations:
+      required: false
+  - type: input
+    id: artist
+    attributes:
+      label: Artist
+      value: ei9h7
+    validations:
+      required: true
+  - type: textarea
+    id: photos
+    attributes:
+      label: Photos
+      description: Drag and drop, paste, or attach your photos here.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / commentary (optional)
+      description: Anything you want written into the "Overview" section — medium, what it's about, etc. Leave blank to fill in later.
+    validations:
+      required: false

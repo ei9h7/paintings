@@ -1,7 +1,7 @@
 ---
 layout: painting
 title: The Head
-image: IMG_6323.jpeg
+image: IMG_6323.jpg
 artist: ei9h7
 ---
 
@@ -58,6 +58,6 @@ artist: ei9h7
 
 **Artist:** ei9h7  
 **Viewed in Commit:** [a10634c](https://github.com/ei9h7/paintings/commit/a10634c206b222e5803199c7019925cf0901f7c7)  
-**Thumbnail:** IMG_6323.jpeg
+**Thumbnail:** IMG_6323.jpg
 
 **Last Updated:** August 16, 2026

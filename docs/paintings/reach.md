@@ -1,7 +1,7 @@
 ---
 layout: painting
 title: Reach
-image: IMG_6575.jpeg
+image: IMG_6575.jpg
 artist: HM & ei9h7
 ---
 
@@ -87,6 +87,6 @@ artist: HM & ei9h7
 
 **Artist(s):** HM & ei9h7  
 **Viewed in Commit:** [742f884](https://github.com/ei9h7/paintings/commit/742f884e33a43b63c2386335b678f3e282602470)  
-**Thumbnail:** IMG_6575.jpeg
+**Thumbnail:** IMG_6575.jpg
 
 **Last Updated:** August 16, 2026

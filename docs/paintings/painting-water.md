@@ -1,7 +1,7 @@
 ---
 layout: painting
 title: Painting Water
-image: IMG_6710.jpeg
+image: IMG_6710.jpg
 artist: HM & ei9h7
 ---
 
@@ -84,6 +84,6 @@ artist: HM & ei9h7
 
 **Artist(s):** HM & ei9h7  
 **Viewed in Commit:** [6bc319a](https://github.com/ei9h7/paintings/commit/6bc319a02cd3a7b025ead1bd6dee30db013449b6)  
-**Thumbnail:** IMG_6710.jpeg
+**Thumbnail:** IMG_6710.jpg
 
 **Last Updated:** August 16, 2026

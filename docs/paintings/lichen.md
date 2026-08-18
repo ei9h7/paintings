@@ -1,7 +1,7 @@
 ---
 layout: painting
 title: Lichen
-image: IMG_6754.jpeg
+image: IMG_6754.jpg
 artist: ei9h7
 ---
 

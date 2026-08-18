@@ -9,7 +9,7 @@ This document covers works that are collections of multiple pieces consolidated 
 
 ## Assorted Marbles
 
-![Assorted Marbles]({{ "/assets/images/IMG_6656.jpeg" | relative_url }})
+![Assorted Marbles]({{ "/assets/images/IMG_6656.jpg" | relative_url }})
 
 ### Overview
 [NEEDS ARTIST INPUT: Marbling technique explanation, artistic intent, relationship to ei9h7's practice]
@@ -72,7 +72,7 @@ This document covers works that are collections of multiple pieces consolidated 
 
 ## Pairings
 
-![Pairings]({{ "/assets/images/IMG_6717.jpeg" | relative_url }})
+![Pairings]({{ "/assets/images/IMG_6717.jpg" | relative_url }})
 
 ### Overview
 [NEEDS ARTIST INPUT: What is the concept of "pairings"? How were paintings selected and displayed together?]
@@ -161,7 +161,7 @@ This document covers works that are collections of multiple pieces consolidated 
 - Assorted Marbles: [85d955a](https://github.com/ei9h7/paintings/commit/85d955a273a7a30e77f574dc00ad5140e2c9fd71)  
 - Pairings: [e8f93ca](https://github.com/ei9h7/paintings/commit/e8f93caeb7cca1b2c731cddf8c8ab3b34d8b2a6c)  
 **Thumbnails:** 
-- Assorted Marbles: IMG_6656.jpeg
-- Pairings: IMG_6717.jpeg
+- Assorted Marbles: IMG_6656.jpg
+- Pairings: IMG_6717.jpg
 
 **Last Updated:** August 16, 2026

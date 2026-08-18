@@ -1,7 +1,7 @@
 ---
 layout: painting
 title: AG (untitled)
-image: IMG_6731.jpeg
+image: IMG_6731.jpg
 artist: ei9h7
 ---
 

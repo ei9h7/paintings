@@ -100,8 +100,8 @@ The collection traces movement from:
 
 For detailed analysis of specific works, see:
 
-- **[Individual Painting Analyses](./individual-analyses.md)** - Deep dive into each of the 9 paintings
-- **[Collaborative Works Analysis](./collaborative-works.md)** - Exploration of the 3 collaborative pieces
+- **[Individual Painting Analyses](./paintings/)** - Deep dive into each of the 9 paintings
+- **[Collections Analysis](./paintings/collections.md)** - Exploration of Assorted Marbles and Pairings
 
 ---
 

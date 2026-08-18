@@ -2,35 +2,91 @@
   image: IMG_6731.jpg
   page: paintings/ag-untitled.html
   artist: ei9h7
+  images:
+    - IMG_6731.jpg
+    - IMG_6732.jpg
+    - IMG_6733.jpg
+    - IMG_6758.jpg
+    - IMG_6762.jpg
+    - IMG_6766.jpg
 - title: Lichen
   image: IMG_6754.jpg
   page: paintings/lichen.html
   artist: ei9h7
+  images:
+    - IMG_6754.jpg
+    - IMG_6581.jpg
+    - IMG_6602.jpg
+    - IMG_6744.jpg
+    - IMG_6751.jpg
+    - IMG_6755.jpg
 - title: Painting Water
   image: IMG_6710.jpg
   page: paintings/painting-water.html
   artist: HM & ei9h7
+  images:
+    - IMG_6710.jpg
+    - IMG_6685.jpg
+    - IMG_6746.jpg
+    - IMG_6747.jpg
 - title: Reach
   image: IMG_6575.jpg
   page: paintings/reach.html
   artist: HM & ei9h7
+  images:
+    - IMG_6575.jpg
+    - IMG_6568.jpg
+    - IMG_6570.jpg
+    - IMG_6588.jpg
+    - IMG_6688.jpg
+    - IMG_6745.jpg
 - title: Blotted
   image: IMG_6600.jpg
   page: paintings/blotted.html
   artist: HM
+  images:
+    - IMG_6600.jpg
+    - IMG_6599.jpg
+    - IMG_6601.jpg
+    - IMG_6686.jpg
+    - IMG_6719.jpg
+    - IMG_6720.jpg
 - title: The Head
   image: IMG_6323.jpg
   page: paintings/the-head.html
   artist: ei9h7
+  images:
+    - IMG_6323.jpg
+    - IMG_6313.jpg
+    - IMG_6317.jpg
+    - IMG_6319.jpg
+    - IMG_6322.jpg
+    - IMG_6324.jpg
+    - IMG_6641.jpg
+    - IMG_6643.jpg
+    - IMG_6644.jpg
 - title: Unfinished Arguments
   image: IMG_4895.jpg
   page: paintings/unfinished-arguments.html
   artist: ei9h7
+  images:
+    - IMG_4895.jpg
+    - AD96B394-1960-48D0-9D63-DEFC00341D9A.jpg
+    - IMG_4868.jpg
+    - IMG_4899.jpg
+    - IMG_E1A064CB-871B-4EFB-8985-08F5D514ACDB.jpg
 - title: Together
   image: image.jpg
   page: paintings/together.html
   artist: HM
+  images:
+    - image.jpg
 - title: Trapped
-  image: IMG_6766.jpg
+  image: IMG_6376.jpg
   page: paintings/trapped.html
   artist: ei9h7
+  images:
+    - IMG_6376.jpg
+    - IMG_6371.jpg
+    - IMG_6372.jpg
+    - IMG_6373.jpg

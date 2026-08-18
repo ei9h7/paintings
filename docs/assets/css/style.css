@@ -167,6 +167,32 @@ article.page h1 {
   margin-bottom: 2rem;
 }
 
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.photo-grid a {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.photo-grid img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.15s ease;
+}
+
+.photo-grid a:hover img {
+  transform: scale(1.05);
+}
+
 .painting-body h2 {
   font-size: 1.3rem;
   margin-top: 2rem;

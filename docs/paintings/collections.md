@@ -9,7 +9,14 @@ This document covers works that are collections of multiple pieces consolidated 
 
 ## Assorted Marbles
 
-![Assorted Marbles]({{ "/assets/images/IMG_6656.jpg" | relative_url }})
+{% assign marbles = site.data.collections | where: "title", "Assorted Marbles" | first %}
+<div class="photo-grid">
+  {% for img in marbles.images %}
+  <a href="{{ "/assets/images/" | append: img | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ "/assets/thumbs/" | append: img | relative_url }}" alt="Assorted Marbles — documentation photo" loading="lazy">
+  </a>
+  {% endfor %}
+</div>
 
 ### Overview
 [NEEDS ARTIST INPUT: Marbling technique explanation, artistic intent, relationship to ei9h7's practice]
@@ -72,7 +79,14 @@ This document covers works that are collections of multiple pieces consolidated 
 
 ## Pairings
 
-![Pairings]({{ "/assets/images/IMG_6717.jpg" | relative_url }})
+{% assign pairings = site.data.collections | where: "title", "Pairings" | first %}
+<div class="photo-grid">
+  {% for img in pairings.images %}
+  <a href="{{ "/assets/images/" | append: img | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ "/assets/thumbs/" | append: img | relative_url }}" alt="Pairings — documentation photo" loading="lazy">
+  </a>
+  {% endfor %}
+</div>
 
 ### Overview
 [NEEDS ARTIST INPUT: What is the concept of "pairings"? How were paintings selected and displayed together?]

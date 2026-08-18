@@ -1,7 +1,7 @@
 ---
 layout: painting
 title: Trapped
-image: IMG_6766.jpg
+image: IMG_6376.jpg
 artist: ei9h7
 ---
 

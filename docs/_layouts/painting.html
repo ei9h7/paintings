@@ -1,12 +1,22 @@
 ---
 layout: default
 ---
+{% assign entry = site.data.paintings | where: "title", page.title | first %}
 <article class="painting">
   <a class="back-link" href="{{ '/' | relative_url }}">&larr; Back to gallery</a>
   <h1>{{ page.title }}</h1>
   {% if page.artist %}<p class="artist-byline">By {{ page.artist }}</p>{% endif %}
   {% if page.image %}
   <img class="hero-image" src="{{ '/assets/images/' | append: page.image | relative_url }}" alt="{{ page.title }}">
+  {% endif %}
+  {% if entry.images and entry.images.size > 1 %}
+  <div class="photo-grid">
+    {% for img in entry.images %}
+    <a href="{{ '/assets/images/' | append: img | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ '/assets/thumbs/' | append: img | relative_url }}" alt="{{ page.title }} — documentation photo" loading="lazy">
+    </a>
+    {% endfor %}
+  </div>
   {% endif %}
   <div class="painting-body">
     {{ content }}
